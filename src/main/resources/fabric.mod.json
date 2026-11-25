@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "selldonutsmp",
+  "version": "${version}",
+  "name": "SellDonutSMP",
+  "description": "SellDonutSMP by Hai Tran",
+  "authors": ["Hai Tran"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.hai.selldonutsmp.SellDonutSMPAddon"]
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~1.21.11",
+    "fabricloader": ">=0.18.0",
+    "meteor-client": "*"
+  },
+  "recommends": {
+    "fabric-api": "*"
+  }
+}
